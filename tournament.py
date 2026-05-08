@@ -1,7 +1,8 @@
 from typing import List, Tuple
 from ex0 import FlameFactory, AquaFactory, CreatureFactory
 from ex1 import HealingCreatureFactory, TransformCreatureFactory
-from ex2 import BattleStrategy, NormalStrategy, AggressiveStrategy, DefensiveStrategy
+from ex2 import BattleStrategy, NormalStrategy
+from ex2 import AggressiveStrategy, DefensiveStrategy
 
 
 Opponent = Tuple[CreatureFactory, BattleStrategy]
